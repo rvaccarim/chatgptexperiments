@@ -1,6 +1,6 @@
-# Chat-GPT experiments
+# ChatGPT experiments
 
-This repository contains some small utilities that were generated using Chat-GPT.  
+This repository contains some small utilities that were generated using ChatGPT.  
 
 Basically, I wanted to test scenarios that are fairly common, for instance:
 - Dealing with logs, files and directories.
