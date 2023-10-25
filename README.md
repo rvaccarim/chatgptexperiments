@@ -10,4 +10,4 @@ Basically, I wanted to test scenarios that are fairly common, for instance:
 - Processing a CSV file.
 - Using multiple threads.
 
-If you are interested, you can read about it on my [blog](https://robertovaccari.com/blog/2023_09_29_chatgpt_experiments).
+If you are interested, you can read about it on my [blog](https://robertovaccari.com/blog/2023_10_24_chatgpt_experiments).
