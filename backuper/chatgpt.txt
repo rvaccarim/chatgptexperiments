@@ -1,0 +1,19 @@
+Step 1
+Create a json config file that contains the following values:
+- a source directory.
+- a destination directory. 
+- number of backups to keep.
+The file should be named backup.json.
+
+Step 2
+Create a Python program that does the following things:
+- include a main function.
+- read the json file that you've just created and retrieve the source directory, the destination directory and the number of backups to keep. The default for the last values is 5.
+- if the source directory does not exist in the filesystem then print "Source directory not found" and exit the program.
+- if the destination directory does not exist in the filesystem then print "Destination directory not found" and exit the program.
+- make sure the source and destination directories are different. Exit if they have the same value and report an error.
+- create a zip file in the destination directory. The zip file must include all the content in the source directory. 
+- the name of the file must be the current date and time, including minutes and seconds.
+- delete the old zip files in the destination directory, but keep the newest zip files based on the value of the number of backups to keep variable.
+- inside the main function, as the last set of instructions, print the source directory, the destination directory, the name of the zip file and the number of backups to keep in that exact order.
+- log the program activity in a file name log.txt and also to the console. Include a header and footer stating that the copy has started and finished.

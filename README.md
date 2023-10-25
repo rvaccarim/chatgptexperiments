@@ -1,2 +1,13 @@
-# chatgptexperiments
-Chat-GPT experiments
+# Chat-GPT experiments
+
+This repository contains some small utilities that were generated using Chat-GPT.  
+
+Basically, I wanted to test scenarios that are fairly common, for instance:
+- Dealing with logs, files and directories.
+- Using external packages.
+- Consuming APIs.
+- Storing data in a database.
+- Processing a CSV file.
+- Using multiple threads.
+
+If you are interested, you can read about it on my [blog](https://robertovaccari.com/blog/2023_09_29_chatgpt_experiments).

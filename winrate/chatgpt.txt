@@ -1,0 +1,9 @@
+Create a program in Python according to this specification:
+- Include a main function.
+- Create a SQLite database inside a folder named db. If the folder does not exist create it. The database will be called winrate.db.
+- Create a table named winrate, with the following columns: name as text, wr as real and count as integer. Truncate the table.
+- Query this url as POST and store the results: https://runeterra.ar/api/meta/get/filter/everyone/en_us?take=20&type=two&filter=true&format=client_Formats_Standard_name&matches=3&wr=3
+- Send {"region":[],"champ":[],"set":[]} as part of the body of the request.
+- The results contain a meta entry which is a JSON array, loop through each element and store name, wr and count in the winrate table.
+- Query the database table and pretty print each record. 
+- Select the top 3 records that have a higher count and order them by count descending.

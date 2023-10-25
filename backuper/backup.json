@@ -1,0 +1,6 @@
+{
+    "sourceDirectory": "/workspaces/chatGPT-experiments/backuper/1-source",
+    "destinationDirectory": "/workspaces/chatGPT-experiments/backuper/2-destination",
+    "backupsToKeep": 3
+}
+

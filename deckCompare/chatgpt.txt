@@ -1,0 +1,29 @@
+Create a program in Python according to this specification:
+- Include a main function.
+- Log activity into log.txt and also use the console.
+- The download folder will be /workspaces/chatGPT-experiments/deckCompare/download.
+- Check if cards.json exists in the download folder. If not, then download https://hextechoracle.com/lor/content/data/cards.json into the download folder.
+
+- There must be a function that receives a deckcode and does the following things:
+    - Load cards.json into a variable named card_data.
+    - Decode the deck code and prints each card.
+    - The method for decoding is LoRDeck.from_deckcode.
+    - Cards have a card_code and a count properties.  
+    - Use the card_code to find the card information in card_data.
+    - Store the card_code, the card count and the card name into a collection. 
+    - Call the function to print card_data.
+    - Return the collection.
+
+- Another function must print the deck contents:
+    - The function will receive the deck code and it's corresponding card_data collection.
+    - Print the deck code.
+    - Print cards inside card_list whose rarity is "Champion".
+    - Then print cards inside card_list whose type is "Unit" and rarity is not "Champion".
+    - Finally print the cards inside card_list whose type is "Spell".
+    - Sort by cost and name in all cases.
+    - Include the card cost, card name and card count. Pretty format the values.
+    - Print a separator 60 characters long
+
+- Call the function with CEBAIAIFB4WDANQIAEAQGDAUDAQSIJZUAIAQCBIFAEAQCBAA as parameter.  
+- Call the function with CEBAGAIFB4WDACABAEBQYFAYEESCONACAEAQCBACAECQKNQBAEAQKHI as parameter. 
+- Diff the second result versus the first one. 

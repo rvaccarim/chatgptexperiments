@@ -1,0 +1,13 @@
+Create a program in Python according to this specification:
+- Include a main function.
+- Create an output folder if it doesn't exist.
+- Delete all txt files inside the output folder.
+- Read a CSV named /workspaces/chatGPT-experiments/parallel/input.csv.
+- The first column is a URL and the second parameter is a body. The file contains a header.
+- The separator is a comma.
+- Store the values in a queue.
+- Create three threads. 
+- Whle there are elements in the queue each thread will take an item from the queue and send a POST request with the URL and body.
+- Each thread should create a txt response file and log the results appending.
+- Use asyncio.
+
